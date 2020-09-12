@@ -1,0 +1,3 @@
+{
+    "mongoURI":"mongodb://user:passwordzeesha123:27017,zeesha123:27017,cluster0-shard-00-02-wuhae.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"
+}
