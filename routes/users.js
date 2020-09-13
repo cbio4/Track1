@@ -1,13 +1,24 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/User');
-const { body, validationResult } = require('express-validator');
 
 
 //@route   api/users
 //@desc    Reister a user
 //@access  public
-router.post('/',(req, res)=>{
-    res.json(req.body);
+router.post('/',(req, res)=>{ 
+    const post = new User({
+        name :req.body.name,
+        email:req.body.email,
+        password:req.body.password
+    });
+    post.save()
+    .then(data => {
+        res.json(data);
+    })
+    .catch(err =>{
+        res.json({message:err});
+    });
+    
 });
 module.exports = router;
