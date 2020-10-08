@@ -1,3 +1,5 @@
 {
-    "mongoURI":"mongodb+srv://zeesha123:zeesha123@bugtrackingsystem.j2pge.mongodb.net/BugTracker?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://zeesha1234:zeesha1234@bug-tracking-system.ddp7b.mongodb.net/BugTRACKER?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+
 }
