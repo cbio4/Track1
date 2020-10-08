@@ -52,7 +52,7 @@ Navbar.propTypes = {
   icon: PropTypes.string,
 };
 Navbar.defaultProps = {
-  title: "Bug Tracking System",
+  title: "Contact Keeper",
   icon: "fab fa-github",
 };
 export default Navbar;
